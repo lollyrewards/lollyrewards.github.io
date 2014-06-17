@@ -6,11 +6,50 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font: inherit;
     vertical-align: baseline;
 }
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
+
 body {
     line-height: 1;
+}
+
+.content2 {
+    border-top: 1px solid #dcdcdc;
+    background: #e6e6e6;
+    padding: 40px 0 40px;
+}
+
+.content3 {
+    border-top: 1px solid #c3c3c3;
+    background: #ccc;
+    margin-bottom: 40px;
+}
+
+.content3h1 {
+    display: block;
+    padding: 20px 0 20px;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #222;
+    text-decoration: none;
+    font-family: 'Oswald',Impact;
+    font-weight: 700;
+}
+
+.content3a {
+position: relative;
+text-align: center;
+color: #444;
+    text-decoration: none;
+    font-family: 'Oswald',Impact;
+    font-weight: 700;
+}
+
+.content3a:hover {
+    color: #f95107;
 }
 
 blockquote:before, blockquote:after, q:before, q:after {
@@ -368,7 +407,7 @@ header.global .chars-11 h1, header.global .chars-12 h1, header.global .chars-13 
 @media all and (min-width:920px)  {
     
 .body {
-    padding: 40px 0 20px;
+    padding: 40px 0 40px;
 }
 }
 .body aside {
