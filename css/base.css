@@ -1,5 +1,6 @@
 body {
 	margin: 0px;
+	background: #222;
 }
 
 .header {
@@ -11,6 +12,11 @@ body {
 	font-size: 46px;
 }
 
+.container {
+width: 900px;
+margin: 0 auto;
+}
+
 .swirl {
 	width:auto;
 	height:86px;
@@ -20,6 +26,7 @@ body {
 
 .content1 {
 	padding: 40px 0 40px;
+	background: #fff;
 }
 
 .content2 {
@@ -72,10 +79,15 @@ a.thumbnail:hover {
 	width: 240px;
 }
 
+img.thumbnail_img {
+margin: 0;
+}
+
+
 h1.thumbnail_txt {
 	font-size: 26px;
 	text-transform: uppercase;
-	text-align: center;
+	text-align: left;
 	text-decoration: none;
 	font-family: 'Oswald',Impact;
 	font-weight: 700;
@@ -125,6 +137,7 @@ color: #fff;
 
 nav.primary {
 background: #333;
+margin: 30px;
 }
 
 nav.primary h1 {
