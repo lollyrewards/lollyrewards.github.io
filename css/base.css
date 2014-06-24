@@ -173,6 +173,10 @@ font-family: 'Oswald',Impact;
 font-weight: 600;
 }
 
+a:hover {
+	color: #f95107;
+}
+
 nav.primary section.social {
 float: right;
 }
