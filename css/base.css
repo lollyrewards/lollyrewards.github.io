@@ -25,6 +25,14 @@ color: #fff;
 	vertical-align: top;
 }
 
+.notop {
+	padding-top:0;
+}
+
+.paddingtop {
+	padding-top:25px;
+}
+
 .swirl {
 	width:auto;
 	height:86px;
