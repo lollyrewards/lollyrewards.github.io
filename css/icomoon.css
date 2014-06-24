@@ -1,0 +1,130 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('/fonts/icomoon.eot');
+	src:url('/fonts/icomoon.eot') format('embedded-opentype'),
+		url('/fonts/icomoon.woff') format('woff'),
+		url('/fonts/icomoon.ttf') format('truetype'),
+		url('/fonts/icomoon.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-exchange:before {
+        content: "\f0ec";
+}
+.icon-checkmark:before {
+        content: "\e60f";
+}
+.icon-info:before {
+        content: "\e60e";
+}
+.icon-question:before {
+        content: "\e60d";
+}
+.icon-refresh:before {
+        content: "\f021";
+}
+.icon-chevron-right:before {
+        content: "\f054";
+}
+.icon-thumb-tack:before {
+        content: "\f08d";
+}
+.icon-copy:before {
+        content: "\e608";
+}
+.icon-share:before {
+        content: "\e607";
+}
+.icon-paste:before {
+        content: "\e606";
+}
+.icon-qrcode:before {
+        content: "\e609";
+}
+.icon-pushpin:before {
+        content: "\e60a";
+}
+.icon-share:before {
+        content: "\e605";
+}
+.icon-mobile:before {
+	content: "\e62e";
+}
+.icon-envelope:before {
+	content: "\e632";
+}
+.icon-location:before {
+	content: "\e634";
+}
+.icon-user:before {
+	content: "\e655";
+}
+.icon-search:before {
+	content: "\e662";
+}
+.icon-mug:before {
+	content: "\e675";
+}
+.icon-earth:before {
+	content: "\e691";
+}
+.icon-bookmark:before {
+	content: "\e698";
+}
+.icon-heart:before {
+	content: "\e69b";
+}
+.icon-star:before {
+	content: "\e787";
+}
+.icon-phone:before {
+	content: "\e7c5";
+}
+.icon-twitter:before {
+	content: "\e8ae";
+}
+.icon-facebook:before {
+	content: "\e8b2";
+}
+.icon-cart:before {
+	content: "\63";
+}
+.icon-gift:before {
+	content: "\e600";
+}
+.icon-plus:before {
+	content: "\e601";
+}
+.icon-magnet:before {
+	content: "\e602";
+}
+.icon-exit:before {
+        content: "\e603";
+}
+.icon-zoomin:before {
+        content: "\e604";
+}
+.icon-stats:before {
+        content: "\e60b";
+}
+.icon-lightning:before {
+        content: "\e60c";
+}
+.icon-loop:before {
+        content: "\e60d";
+}

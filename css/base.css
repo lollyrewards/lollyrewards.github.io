@@ -17,11 +17,14 @@ width: 900px;
 margin: 0 auto;
 }
 
+h1 a {
+color: #fff;
+}
+
 .swirl {
 	width:auto;
 	height:86px;
-	padding-left:4px;
-	padding-right:2px" 
+	padding-left:3px;
 }
 
 .content1 {
@@ -124,7 +127,9 @@ padding-left: 10px;
 
 footer .copyright {
 text-align: right;
-line-height:1.5em;
+line-height: 1.5em;
+font-family: 'Oswald',Impact;
+font-weight: 600;
 }
 
 footer a {
@@ -170,7 +175,7 @@ a {
 text-decoration: none;
 color: #222;
 font-family: 'Oswald',Impact;
-font-weight: 600;
+font-weight:600;
 }
 
 a:hover {
@@ -248,4 +253,8 @@ font-size: 20px;
 
 .autoheight {
 height: auto;
+}
+
+.contact {
+margin: 10px;
 }
