@@ -49,6 +49,21 @@
 			ga('send', 'pageview');
 		</script>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+		<script src="/js/jquery.cookiesdirective.js"></script>
+		<script type="text/javascript">
+		    $(document).ready(function() {
+		        $.cookiesDirective({
+				explicitConsent: false,
+				privacyPolicyUri: '/privacy.html',
+				backgroundColor: '#333',
+				cookieScripts: 'Google Analytics',
+				fontFamily: 'Oswald,Impact',
+				fontSize: '20px',
+				linkColor: '#f95107',
+		        });
+		    });
+		</script>
 	</head>
 	<body>
 		<header class="header">
