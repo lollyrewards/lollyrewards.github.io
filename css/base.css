@@ -230,3 +230,14 @@ font-size: 26px;
 }
 }
 
+@media all and (max-width:420px) {
+.container {
+width: 300px;
+}
+.prezi {
+width: 300px;
+}
+.title {
+font-size: 20px;
+}
+}
