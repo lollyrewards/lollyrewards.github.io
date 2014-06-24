@@ -181,3 +181,52 @@ nav.primary section.social {
 float: right;
 }
 
+@media all and (max-width:900px) {
+.container {
+width: 600px;
+}
+.prezi {
+width: 600px;
+}
+h1 {
+font-size: 1.25em;
+}
+.swirl {
+height: 52px;
+padding-left:2px;
+}
+}
+
+@media all and (max-width:620px) {
+.container {
+width: 500px;
+}
+.prezi {
+width: 500px;
+}
+h1 {
+font-size: 1em;
+}
+.swirl {
+height: 42px;
+}
+}
+
+@media all and (max-width:520px) {
+.container {
+width: 400px;
+}
+.prezi {
+width: 400px;
+}
+h1 {
+font-size: 0.5em;
+}
+.swirl {
+height: 22px;
+}
+.title {
+font-size: 26px;
+}
+}
+
