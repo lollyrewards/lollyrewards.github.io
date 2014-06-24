@@ -21,6 +21,10 @@ h1 a {
 color: #fff;
 }
 
+.tabletop {
+	vertical-align: top;
+}
+
 .swirl {
 	width:auto;
 	height:86px;
@@ -169,6 +173,14 @@ ul {
 line-height: 1.5;
 list-style: none;
 padding: 0;
+}
+
+.ulmargin {
+margin: -2px;
+}
+
+td {
+padding-right:10px;
 }
 
 a {
