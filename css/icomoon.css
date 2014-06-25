@@ -101,6 +101,12 @@
 .icon-facebook:before {
 	content: "\e8b2";
 }
+.icon-twitter-circle:before {
+        content: "\e610";
+}
+.icon-facebook-circle:before {
+        content: "\e611";
+}
 .icon-cart:before {
 	content: "\63";
 }
