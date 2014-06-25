@@ -36,17 +36,20 @@ h1 a {
 .social {
 	font-size: 50px;
 	color: #fff;
-	display: inline-flex;
-	float: right;
+	float: left;
 	margin-top:20px;
+	width: 50%;
+	text-align: right;
 }
 
 .social li {
 	margin-left: 10px;
+	display:inline;
 }
 
 .about {
 	float: left;
+	width: 50%;
 }
 
 ul.padout {
