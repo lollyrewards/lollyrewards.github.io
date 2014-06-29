@@ -319,5 +319,6 @@ font-size: 3em;
 
 .mb_normal {
 	font-weight: normal;
+	text-transform: none;
 }
 
