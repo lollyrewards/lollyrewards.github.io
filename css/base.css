@@ -125,8 +125,15 @@ a.thumbnail:hover {
 img.thumbnail_img {
 	margin: 0;
 	margin-top: 10px;
+	border: 1px solid #ccc;
 }
 
+img.thumbnail_img:hover {
+        box-shadow:0 0 10px #aaa;
+        -moz-box-shadow:0 0 10px #aaa;
+        -webkit-box-shadow:0 0 10px #aaa;
+        cursor:pointer;
+}
 
 h1.thumbnail_txt {
 	font-size: 26px;
