@@ -17,6 +17,11 @@ body {
 	margin: 0 auto;
 }
 
+.container_video {
+	width: 560px;
+	margin: 0 auto;
+}
+
 .large {
 	font-size: 2em;
 }
